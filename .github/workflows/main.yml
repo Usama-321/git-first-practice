@@ -1,16 +1,14 @@
 name: first action  workflow
 
 on:
- push:
+  push:
    branches: [ main ]
 
 jobs:
   first:
    runs-on: ubuntu- latest
 
-
-
-steps:
- - name: greeting
-    run: echo "helo brother"
+   steps:
+   - name: greeting
+     run: echo "helo brother"
  
