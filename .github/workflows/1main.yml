@@ -1,0 +1,10 @@
+name : first workflow
+on:
+   push:
+    branches: [ main ]
+jobs:
+   hifi:
+     runs-on: ubuntu-latest
+     steps:
+        - name: love
+          run: echo "helo bro" 
